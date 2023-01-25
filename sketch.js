@@ -3,7 +3,7 @@ let angle = 0;
 let slider;
 
 function setup() {
-  createCanvas(400, 400);
+  createCanvas(640, 480);
   slider = createSlider(0, TWO_PI, PI / 4, 0.01);
 }
 
